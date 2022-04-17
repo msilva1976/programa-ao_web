@@ -23,8 +23,31 @@
         </form>
       </div>
       <div class="conteudo">
-        aqui vai o primeiro conteudo<br />
-        aqui vai o segundo conteudo
+        <fieldset >
+          <legend>Caulculo de credito</legend>
+          <br><form method="post" action="credito.php">
+            Nome: <input type="text" name="nome" >
+            Renda: <input type="number" name="renda" >
+            <input type="submit" name="enviar" value="Calcular Credito">
+          </form>
+          <br>
+        </fieldset><br><br>
+        <fieldset>
+          <legend>Orçamento</legend>
+          <form method="get" action="orcamento.php">
+            Data: &nbsp;<input type="date" name="data" id="data">
+            Orçamento valido até: &nbsp; : <input type="number" name="validade" id="garantia" min="1" max="6" ><br><br>
+            Locação: &nbsp;<select name="locação" id="Locação">
+              <option value="">Chacara</option>
+              <option value="">Material para festa</option>
+              <option value="">Mesas</option>
+            </select>
+            Tipo de locação <input type="text"name="tipo_de_locacao" ><br><br>
+            Nome do Cliente &nbsp; <input type="text" name="cliente" > <br><br>
+            <input type="submit" name="enviar" value="Orcamento"><br><br>
+
+          </form>
+        </fieldset>
       </div>
     </main>
     <footer>

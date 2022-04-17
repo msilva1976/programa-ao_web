@@ -26,10 +26,9 @@
         switch ($pesquisa) {
             case 'office':
                 echo "
-                <h1>Pacote Office</h1>
-
-
-
+                <h1>Pacote Office</h1><br>
+                <img src = './img/office.png'><br>
+                
                 Faculdade, cursos livres e técnicos<br>
                 
                 Mercado de trabalho disputado, empresas cada vez mais exigentes...<br>
@@ -41,7 +40,7 @@
                 case 'Marketing Digital':
                     echo"
                     <h1>Marketing Digital</h1>
-
+                    <img src = './img/Ads.png'><br>
                         Uma das maiores dificuldades no início de qualquer empreendimento é a conquista dos clientes, mostrar o quanto sua ideia pode ser inovadora ou o quanto seu produto pode ser útil e sua qualidade surpreendente.<br>
 
                         Se você é um produtor de conteúdo digital (Youtuber por exemplo) este curso vai ajudar a alavancar seus vídeos e conquistar público. <br>
@@ -51,7 +50,7 @@
                     case 'Negócios Digitais':
                         echo"
                         <h1>Negócios Digitais</h1>
-    
+                        <img src = './img/negocios.png'><br>
                         
 
                         Já imaginou desenvolver um site e obter renda extra com isso?<br>
