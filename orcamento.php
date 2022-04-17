@@ -33,6 +33,15 @@
         echo"Tipo de Serviço $locacao <br>";
         echo"Locação de  $tipo_loc<br>";
         echo"Nome do Locatario $nome <br>";
+        switch ($variable) {
+          case 'locacao':
+            # code...
+            break;
+          
+          default:
+            # code...
+            break;
+        }
       
           
         ?><br><br>
